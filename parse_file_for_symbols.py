@@ -3,7 +3,7 @@ import string
 
 def read_file():
     """Reads from a file."""
-    with open('dashes') as file_contents:
+    with open('inputfile') as file_contents:
         text = file_contents.read().splitlines()
         return(text)
 
